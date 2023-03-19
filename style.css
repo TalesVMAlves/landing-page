@@ -3,11 +3,11 @@ body{
     padding: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.header, .main{
+#header, #main, #finishing_touches{
     background-color: #1f2937;
 }
 
-.header{
+#header{
     display: flex;
     align-items: center;
     margin-bottom: -22px;
@@ -27,27 +27,28 @@ body{
     justify-content: center;
 }
 
-#links a, .description p{
+#links a, #description p{
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.main{
+#main{
     display: flex;
     height: 500px;
     align-items: center;
     justify-content: left;
 }
 
-.description{
+#description{
     flex: 1;
     padding-left: 10%;
 }
 
-#main-text{
+#description #main-text{
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    margin: -10px 0;
 }
 
 #main-img{
@@ -59,13 +60,96 @@ button{
     background-color: #3882F6;
     color: white;
     text-align: center;
-    border: none;
+    font-weight: 900;
+    border: 1px white solid;
     border-radius: 8px;
     width: 20%;
     height: 28px;
 }
-.information{
-    color: black;
-    background-color: white;
 
+#info_head_text{
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+
+#demo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.img_text{
+    text-align: center;
+    width: 200px;
+    height: auto;
+}
+
+.img_text img{
+    border: 3px solid #3882F6;
+    
+}
+
+#inspiring{
+    background-color: #E5E7EB;
+}
+
+#inspiring #music_quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+    text-align: center;
+}
+
+#inspiring #author{
+    width: 950px;
+    text-align: end;
+    margin-top: -35px;
+    font-weight: 700;
+}
+
+#ending{
+    height: 200px;
+    padding-top: 50px;
+}
+
+#blue_box{
+    display: flex;
+    background-color: #3882F6;
+    width: 60%;
+    text-align: left;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#flexing{
+    flex: 2;
+    color: white;
+    margin-right: 10px;
+}
+
+#bold{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+#last{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+#blue_box button{
+    margin: auto;
+}
+
+#finishing_touches{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
 }
